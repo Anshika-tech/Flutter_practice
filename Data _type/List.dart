@@ -1,4 +1,4 @@
-void main(){
+/*void main(){
   List l=[1,2,3,4,"Anshika",true];
   print(l);
   print(l.length);
@@ -15,4 +15,13 @@ void main(){
   l.forEach((i){
     print(i);
   });
+}
+*/
+//create a list and print the entire list as multiple of 5.
+void main(){
+  List l=[2,6,7,4,9];
+  for(int i=0;i<l.length;i++){
+    l[i]=l[i]*5;
+  }
+  print(l);
 }
